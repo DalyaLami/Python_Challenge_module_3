@@ -48,7 +48,7 @@ with open(csvpath, 'r') as csvfile:   #Reading the CSV file
                 Greatest_Decrease_Date= Date[i+1]
                 
 #Result analysis that prints to terminal and export to text file 
-print("\n Financial Analysis")
+print("\nFinancial Analysis")
 print("-------------------------")
 print("Total Month:", len(Date))
 print("Total: $"+ str(Total))
@@ -58,7 +58,7 @@ print("Greatest Decrease in Profits:", Greatest_Decrease_Date, "($"+ str(Greates
 
 f = open("PyBank/Analysis/Results.txt", 'w') 
 
-print("\n Financial Analysis", file = f)
+print("\nFinancial Analysis", file = f)
 print("-------------------------", file = f)
 print("Total Month:", len(Date), file = f)
 print("Total: $"+ str(Total), file = f)
